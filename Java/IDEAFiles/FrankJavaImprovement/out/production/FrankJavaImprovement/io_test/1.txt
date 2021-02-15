@@ -1,5 +1,0 @@
-Go fuck you!Student@aecb35a
-Student@5fcd892a
-Student(age=18, name=Fuki, id=2)
-Student(age=19, name=gogo, id=3)
-true
