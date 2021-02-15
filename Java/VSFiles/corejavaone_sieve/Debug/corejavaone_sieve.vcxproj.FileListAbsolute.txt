@@ -1,0 +1,2 @@
+F:\VSFiles\corejavaone_sieve\Debug\corejavaone_sieve.exe
+F:\VSFiles\corejavaone_sieve\Debug\corejavaone_sieve.pdb

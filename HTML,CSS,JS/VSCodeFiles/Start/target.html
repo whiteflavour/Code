@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <mata charset="utf-8"></mata>
+        <title>Target</title>
+        <style>
+            .feature-box.a div {
+                background: red;
+                width: 100%;
+                margin: 5px;
+                padding: 10px;
+            }
+            .feature-box.b div {
+                background: pink;
+                width: 100%;
+                margin: 5px;
+                padding: 10px;
+            }
+            section {
+                display: flex;
+                margin: 0;
+            }
+            #frank {
+                font-size: 50px;
+            }
+            div:last-child {
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            Header
+        </header>
+        <section id="frank" class="feature-box a">
+            <div>a</div>
+            <div>b</div>
+            <div>c</div>
+        </section>
+        <section class="feature-box b">
+            <div>d</div>
+            <div>e</div>
+        </section>
+    </body>
+</html>

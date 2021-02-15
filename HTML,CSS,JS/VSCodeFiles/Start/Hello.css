@@ -1,0 +1,18 @@
+header {
+    background: black;
+    color: white;
+    padding: 20px;
+}
+section {
+    background: rgba(81, 186, 228, 0.945);
+    color: rgba(218, 6, 154, 0.884);
+    padding: 10px 20px;
+}
+footer {
+    background: rgb(216, 216, 92);
+    padding: 20px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head lang="ch">
+    <meta charset="UTF-8">
+    <title>草泥马</title>
+    <style>
+        body {
+            background-color: rgba(46, 235, 147, 0.726);
+            width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px 20px 20px;
+            border: 5px solid black;
+        }
+        button{
+            border-radius: 12px;
+            background: rgb(64, 188, 226);
+            border: none;
+        }
+        h1 {
+            color: rgb(155, 85, 85);
+            font-size: 250px;
+            text-align: center;
+            margin: 0;
+            padding: 20px 0;
+            text-shadow: 3px 3px 1px black;
+        }
+        h2 {
+            color:rgb(218, 114, 221);
+            opacity: 0.4;
+        }
+        p {
+            color: red;
+            width: 500px;
+            border:1px solid black;
+            font-size: 16px;
+            line-height: 2;
+            letter-spacing: 1px;
+        }
+        html {
+            font-size: 10px; /*设置字体大小*/
+            /*设置字体*/
+            font-family: "Open Sans", sans-serif;
+            background-color: rgb(218, 114, 221);
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+            卧槽<br>
+            FUCK!
+    </h1>
+    <img src="/Start/wallhaven-6k35rl.jpg" alt="My Girl">
+    <h2>
+        Go fuck yourself !! 
+    </h2>
+    <button>
+        Click me !!
+    </button>
+    <p>
+        gogogogoogogogogogogogo gogogogo gogog gogoog
+    </p>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            function createParagraph() {
+                let para = document.createElement('p');
+                para.textContent = '你点击了这个按钮！';
+                document.body.appendChild(para);
+            }
+
+            const buttons = document.querySelectorAll('button');
+
+            for (let i = 0; i < buttons.length; ++i) {
+                buttons[i].addEventListener('click', createParagraph);
+            }
+        });
+    </script>
+</body>

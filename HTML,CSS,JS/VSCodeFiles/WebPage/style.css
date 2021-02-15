@@ -1,0 +1,119 @@
+/* the header */
+
+header {
+    background-image: url("/WebPage/image/heaven.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 70%;
+    height: 76px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+}
+header li:first-child {
+    margin-left: 0;
+}
+header li.navigation:hover {
+    background: rgb(184, 102, 102);
+    border-radius: 3px;
+}
+header li.love a {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-image: url("/WebPage/image/Home.jpg");
+    background-size: 110px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    text-indent: -9999999px;
+    padding-top: 0;
+}
+header li.navigation {
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    
+}
+header .navigation a:hover {
+    text-decoration: underline;
+}
+
+/* the section */
+
+section.feature {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 76px;   
+    text-transform: uppercase;
+    text-align: center;
+}
+section.feature img {
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    border: 1px solid white;
+}
+
+/* Responsive rules */
+
+/* @media screen and (max-width: 956px) {
+    section.feature {
+
+    }    
+} */
+
+/* 将 ul 前面的顺序去掉
+
+section ul {
+    list-style-type: none;
+} */
+
+/* 编辑图片 */
+/* section ul.light {
+    position: fixed;
+    left: 0;
+} */
+/* section ul.galaxy {
+    position: relative;
+    left: 300px;
+} */
+/* section ul.tree {
+    position: fixed;
+    right: 0;
+} */
+
+/* the footer */
+
+footer {
+    background-color: rgb(170, 157, 157);
+    color: rgb(78, 78, 78);
+    font-size: 15px;
+    text-decoration: underline;
+    padding: 4px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+srcset <picture>
