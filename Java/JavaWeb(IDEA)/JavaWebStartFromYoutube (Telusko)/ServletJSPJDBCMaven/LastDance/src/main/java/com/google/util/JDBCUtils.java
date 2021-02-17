@@ -5,13 +5,32 @@ import java.io.InputStream;
 import java.sql.*;
 import java.util.Properties;
 
+/**
+ * 数据库连接工具类，使代码具有复用性。
+ *
+ * @author Liao
+ * @date 2021-2-9
+ *
+ * @update 2021-2-11 Liao
+ *  fixed java.lang.NoClassDefFoundError: Could not initialize class com.google.util.JDBCUtils.
+ *      by replace getSystemResourceAsStream() method by getResourceAsStream() method.
+ *
+ * @update 2021-2-17 Liao
+ *  fixed No suitable driver found for jdbc:mysql://localhost:3306/login?characterEncoding=utf8
+ *      by adding Class.forName() method before DriverManager.getConnection() method
+ *      in getConnection() function.
+ */
 public class JDBCUtils {
     private static String url;
     private static String user;
     private static String password;
     private static String driver;
 
+    // 静态代码块，预加载代码。
     static {
+        // 使用 getResourceAsStream() 方法代替 getSystemResourceAsStream() 方法。
+        // 原因：webapp 是一个目录层级，使用 SystemResource 方法在运行时只能找第一层。
+        // 一般使用 Resource 方法 代替 SystemResource 方法，因为它使用与代码所属类相同的类加载器，即：Resource 方法包含 SystemResource 方法。
         InputStream inputStream = JDBCUtils.class.getClassLoader().getResourceAsStream("db.properties");
         Properties properties = new Properties();
         try {
@@ -34,11 +53,22 @@ public class JDBCUtils {
         }
     }
 
+    /**
+     * 测试资源文件是否读取成功。
+     */
     public static void test() {
         System.out.println("come on");
     }
 
-    public static Connection getConnection() throws SQLException {
+    /**
+     * 获取数据库连接
+     * @return 数据库连接 Connection
+     * @throws SQLException
+     * @throws ClassNotFoundException
+     */
+    public static Connection getConnection() throws SQLException, ClassNotFoundException {
+        // 加载驱动，此步骤很重要。★
+        Class.forName(driver);
         return DriverManager.getConnection(url, user, password);
     }
 
