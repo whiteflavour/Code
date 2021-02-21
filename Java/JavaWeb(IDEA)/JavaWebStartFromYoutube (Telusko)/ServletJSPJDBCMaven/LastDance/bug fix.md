@@ -32,7 +32,7 @@
 
 ## EL 问题：
 
-到这里，终于，成功登录，bug 解决完之后的一阵狂喜。只是没想到，EL 竟然无法获取属性，而是直接打印在页面上：`${student}`找了半天资料，没有一丝办法。最终，终于发现了解决方案：
+到这里，终于，成功登录，bug 解决完之后的一阵狂喜。只是没想到，EL 竟然无法获取属性，而是直接打印在页面上：`${student}`，我想，肯定时 EL 出了问题，找了半天资料，没有一丝办法。最终，终于发现了解决方案：
 
 在 welcome.jsp 页面最前面的 Directive 中添加`isELIgnored="false"`，即：`<%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>` —— https://blog.csdn.net/weixin_42950079/article/details/102649892?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-0&spm=1001.2101.3001.4242
 
