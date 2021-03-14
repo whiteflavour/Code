@@ -8,6 +8,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+<%-- 列出拥有的 tickets --%>
 <html>
 <head>
     <title>Your tickets</title>

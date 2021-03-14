@@ -1,5 +1,11 @@
 package com.google.model;
 
+/**
+ * Attachment POJO.
+ *
+ * @author Liao
+ * @date 2021-3-14
+ */
 public class Attachment {
     private String name;
     private byte[] contents;

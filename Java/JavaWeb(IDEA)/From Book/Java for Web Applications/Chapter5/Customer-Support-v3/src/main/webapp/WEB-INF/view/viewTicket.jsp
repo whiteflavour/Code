@@ -10,6 +10,8 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<%-- 根据 ID 查看每一个票据的信息 --%>
 <html>
 <head>
     <title>Your ticket</title>

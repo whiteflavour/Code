@@ -13,6 +13,12 @@ import java.nio.charset.StandardCharsets;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+/**
+ * Create, view ticket and download attachments.
+ *
+ * @author Liao
+ * @date 2021-3-14
+ */
 @WebServlet(
         name = "ticketServlet",
         urlPatterns = {"/tickets"},
@@ -29,7 +35,8 @@ public class TicketServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        if (request.getAttribute("username") == null) {
+        HttpSession session = request.getSession();
+        if (session.getAttribute("username") == null) {
             response.sendRedirect("login");
             // 防止重定向之后程序继续向下执行，产生 IllegalStateException
             return;
@@ -104,6 +111,7 @@ public class TicketServlet extends HttpServlet {
 
     private void viewTicket(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // TODO 尝试此语句的 request 是否与其他的是同一个 request
+        // 结果：不能删除该句话，否则第一次 create 后 viewTicket.jsp 获取的 ticketDatabase 为 null 。说明不是同一个 request 。★
         request.setAttribute("ticketDatabase", ticketDatabase);
         request.getRequestDispatcher("/WEB-INF/view/viewTicket.jsp").forward(request, response);
     }
@@ -139,6 +147,7 @@ public class TicketServlet extends HttpServlet {
             outputStream.write(bytes, 0, read);
         }
 
+        // TODO: 解决中文名文件显示在浏览器上的乱码问题（尚未找到合适的编码来纠正）。
         attachment.setName(filePart.getSubmittedFileName());
         attachment.setContents(outputStream.toByteArray());
         return attachment;

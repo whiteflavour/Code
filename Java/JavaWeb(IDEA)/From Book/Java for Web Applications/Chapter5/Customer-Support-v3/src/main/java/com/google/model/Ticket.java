@@ -4,6 +4,12 @@ import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+/**
+ * Ticket POJO. Supply customer name, subject, body and attachments.
+ *
+ * @author Liao
+ * @date 2021-3-14
+ */
 public class Ticket {
     private String customerName;
     private String subject;

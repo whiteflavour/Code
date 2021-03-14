@@ -7,6 +7,12 @@ import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+/**
+ * Login Servlet.
+ *
+ * @author Liao
+ * @date 2021-3-14
+ */
 @WebServlet(
         name = "loginServlet",
         urlPatterns = {"/login"}
@@ -40,7 +46,8 @@ public class LoginServlet extends HttpServlet {
             request.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(request, response);
         }
 
-        request.setAttribute("username", username);
+        HttpSession session = request.getSession();
+        session.setAttribute("username", username);
         request.getRequestDispatcher("tickets").forward(request, response);
     }
 }
