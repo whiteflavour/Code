@@ -1,11 +1,14 @@
 package com.google.model;
 
+import java.util.Collection;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class Ticket {
     private String customerName;
     private String subject;
     private String body;
+    private Map<String, Attachment> attachments = new LinkedHashMap<>();
 
     public Ticket() {}
     public Ticket(String customerName, String subject, String body) {
@@ -36,5 +39,16 @@ public class Ticket {
 
     public void setBody(String body) {
         this.body = body;
+    }
+
+    public Collection<Attachment> getAttachments() {
+        return attachments.values();
+    }
+    public void addAttachment(Attachment attachment) {
+        attachments.put(attachment.getName(), attachment);
+    }
+
+    public Attachment getAttachment(String attachmentName) {
+        return attachments.get(attachmentName);
     }
 }
