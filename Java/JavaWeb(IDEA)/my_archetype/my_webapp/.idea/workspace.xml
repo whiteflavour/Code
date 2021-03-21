@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa40c07a-a960-4581-baff-b000b7517160" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/.vs/sequence_list/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/.vs/sequence_list/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/.vs/sequence_list/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/.vs/sequence_list/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/sequence_list.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/sequence_list.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/sequence_list.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/sequence_list.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/sequence_list.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/src/main/webapp/play.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/src/main/webapp/play.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/target/User-Profile/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/target/User-Profile/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/target/User-Profile/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/target/User-Profile/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/target/User-Profile/play.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/target/User-Profile/play.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/ant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/artifacts/User_Profile_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/artifacts/User_Profile_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/codeStyleSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/dictionaries/Nicholas.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/libraries/Maven__javax_servlet_jsp_jstl_javax_servlet_jsp_jstl_api_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/libraries/Maven__org_glassfish_web_javax_servlet_jsp_jstl_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/scopes/scope_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/User-Profile.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1q0UPLg8qqgOJ37LJQwolA9t5Io" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn archetype:create-from-project" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunAnythingContextRecentDirectoryCache">
+    <option name="paths">
+      <recentPaths value="$PROJECT_DIR$/target/generated-sources/archetype" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="af5686f0-e7e8-44b0-a2be-7d4607664417" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="14547" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="27a643c1-5bb4-432c-be7d-f6a529a054d8" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="14547" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa40c07a-a960-4581-baff-b000b7517160" name="Default Changelist" comment="" />
+      <created>1616215978182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616215978182</updated>
+      <workItem from="1616215980116" duration="340000" />
+      <workItem from="1616216792420" duration="1296000" />
+      <workItem from="1616222741160" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

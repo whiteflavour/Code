@@ -1,2 +1,2 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<c:redirect url="play.jsp"/>
+<%@ include file="WEB-INF/jsp/base.jspf" %>
+<c:redirect url="/profile"/>

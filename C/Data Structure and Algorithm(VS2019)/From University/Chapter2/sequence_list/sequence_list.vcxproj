@@ -139,7 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="sequence_list.c" />
+    <ClCompile Include="sequence_list_test.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sequence_list.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

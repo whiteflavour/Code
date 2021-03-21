@@ -1,0 +1,5 @@
+﻿  sequence_list_test.c
+F:\Code\C\Data Structure and Algorithm(VS2019)\From University\Chapter2\sequence_list\sequence_list_test.c(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+F:\Code\C\Data Structure and Algorithm(VS2019)\From University\Chapter2\sequence_list\sequence_list.h(62,13): warning C4047: 'return': 'element_type' differs in levels of indirection from 'void *'
+F:\Code\C\Data Structure and Algorithm(VS2019)\From University\Chapter2\sequence_list\sequence_list.h(118,13): warning C4047: 'return': 'element_type' differs in levels of indirection from 'void *'
+  sequence_list.vcxproj -> F:\Code\C\Data Structure and Algorithm(VS2019)\From University\Chapter2\sequence_list\Debug\sequence_list.exe
