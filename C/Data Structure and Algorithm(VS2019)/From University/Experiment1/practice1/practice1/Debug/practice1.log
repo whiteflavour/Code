@@ -1,0 +1,6 @@
+﻿  test.c
+F:\Code\C\Data Structure and Algorithm(VS2019)\From University\Experiment1\practice1\practice1\test.c(16,17): warning C4047: '=': 'int' differs in levels of indirection from 'int *'
+F:\Code\C\Data Structure and Algorithm(VS2019)\From University\Experiment1\practice1\practice1\test.c(19,29): warning C4047: 'function': 'int *' differs in levels of indirection from 'int'
+F:\Code\C\Data Structure and Algorithm(VS2019)\From University\Experiment1\practice1\practice1\test.c(19,26): warning C4024: 'fun': different types for formal and actual parameter 2
+F:\Code\C\Data Structure and Algorithm(VS2019)\From University\Experiment1\practice1\practice1\test.c(25,1): warning C4047: 'initializing': 'int *' differs in levels of indirection from 'int (*)[30]'
+  practice1.vcxproj -> F:\Code\C\Data Structure and Algorithm(VS2019)\From University\Experiment1\practice1\practice1\Debug\practice1.exe

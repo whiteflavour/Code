@@ -5,38 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa40c07a-a960-4581-baff-b000b7517160" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/.vs/sequence_list/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/.vs/sequence_list/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/.vs/sequence_list/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/.vs/sequence_list/v16/Browse.VC.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/sequence_list.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/sequence_list.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/sequence_list.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/sequence_list.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/sequence_list.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/src/main/webapp/play.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/src/main/webapp/play.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/target/User-Profile/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/target/User-Profile/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/target/User-Profile/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/target/User-Profile/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/target/User-Profile/play.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter6/User-Profile/target/User-Profile/play.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/ant.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/artifacts/User_Profile_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/artifacts/User_Profile_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/codeStyleSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/dictionaries/Nicholas.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/libraries/Maven__javax_servlet_jsp_jstl_javax_servlet_jsp_jstl_api_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/libraries/Maven__org_glassfish_web_javax_servlet_jsp_jstl_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/scopes/scope_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Demonstration Code/Source Code/Chapter 06/IntelliJ/User-Profile/User-Profile.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/linked_list/.vs/linked_list/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/linked_list/.vs/linked_list/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/src/main/java/com/google/controller/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/src/main/java/com/google/dao/MyDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/src/main/java/com/google/model/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/src/main/resources/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/src/main/webapp/WEB-INF/jsp/view/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/target/classes/com/google/controller/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/target/classes/com/google/dao/MyDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/target/classes/com/google/model/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/target/my_webapp/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/target/my_webapp/WEB-INF/classes/com/google/controller/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/target/my_webapp/WEB-INF/classes/com/google/dao/MyDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/target/my_webapp/WEB-INF/classes/com/google/model/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/target/my_webapp/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/target/my_webapp/WEB-INF/jsp/view/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/target/my_webapp/WEB-INF/lib/javax.el-api-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/target/my_webapp/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/target/my_webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter7/demo/target/my_webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/my_webapp-archetype-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/my_webapp-archetype-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,7 @@
       <list>
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="My JSPF" />
       </list>
     </option>
   </component>
@@ -86,6 +88,17 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
@@ -254,6 +267,7 @@
       <workItem from="1616215980116" duration="340000" />
       <workItem from="1616216792420" duration="1296000" />
       <workItem from="1616222741160" duration="28000" />
+      <workItem from="1616395030063" duration="202000" />
     </task>
     <servers />
   </component>
