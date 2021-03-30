@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Template-Tags:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b95ba5e-e538-49f4-8958-99690a39bd2e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/.vs/ProjectSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/.vs/linked_list/v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/.vs/linked_list/v16/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/.vs/linked_list/v16/TestStore/0/000.testlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/.vs/linked_list/v16/TestStore/0/testlog.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/.vs/linked_list/v16/ipch/AutoPCH/af3e0aebf3bf7c46/LINKED_LIST_TEST.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/.vs/linked_list/v16/ipch/AutoPCH/c6f60e67ea33536e/LINKED_LIST.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/.vs/linked_list/v16/ipch/AutoPCH/f2f0b7243ce5ef71/LINKED_LIST.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/linked_list.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/linked_list.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/linked_list.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/linked_list.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/linked_list.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/linked_list.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/x64/Debug/linked_list.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/x64/Debug/linked_list.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/x64/Debug/linked_list.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/x64/Debug/linked_list.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/x64/Debug/linked_list.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/x64/Debug/linked_list.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/x64/Debug/linked_list.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/x64/Debug/linked_list.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/x64/Debug/linked_list.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/x64/Debug/linked_list.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/x64/Debug/linked_list.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/x64/Debug/linked_list.tlog/linked_list.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/x64/Debug/linked_list.vcxproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/x64/Debug/linked_list_test.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/x64/Debug/vc142.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/x64/Debug/vc142.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/.vs/sequence_list/v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/.vs/sequence_list/v16/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/.vs/sequence_list/v16/ipch/AutoPCH/3d9d8c777ea1d10b/SEQUENCE_LIST_TEST.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/.vs/sequence_list/v16/ipch/AutoPCH/b25c7dbb6c675aac/SEQUENCE_LIST.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/.vs/sequence_list/v16/ipch/AutoPCH/b25c88bb6c676d5d/SEQUENCE_LIST.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/Debug/sequence_list.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/Debug/sequence_list.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/Debug/sequence_list.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/Debug/sequence_list.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/Debug/sequence_list.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/Debug/sequence_list.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/Debug/sequence_list.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/Debug/sequence_list.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/Debug/sequence_list.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/Debug/sequence_list.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/Debug/sequence_list.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/Debug/sequence_list.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/Debug/sequence_list.tlog/sequence_list.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/Debug/sequence_list.vcxproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/Debug/sequence_list_test.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/Debug/vc142.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/Debug/vc142.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/sequence_list.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/sequence_list.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/sequence_list.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/sequence_list/sequence_list.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Experiment1/practice1/practice1/.vs/practice1/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Experiment1/practice1/practice1/.vs/practice1/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Experiment1/practice1/practice1/.vs/practice1/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Experiment1/practice1/practice1/.vs/practice1/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Experiment1/practice1/practice1/complex_number.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../C/Data Structure and Algorithm(VS2019)/From University/Experiment1/practice1/practice1/complex_number.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/.idea/artifacts/play_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/.idea/artifacts/play_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/play.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/src/main/java/com/google/controller/MyServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/src/main/java/com/google/dao/MyDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/src/main/java/com/google/model/MyModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/src/main/resources/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/src/main/webapp/WEB-INF/jsp/base.jspf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/src/main/webapp/WEB-INF/jsp/view/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/target/classes/com/google/controller/MyServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/target/classes/com/google/dao/MyDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/target/classes/com/google/model/MyModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/target/my_webapp/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/target/my_webapp/WEB-INF/classes/com/google/controller/MyServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/target/my_webapp/WEB-INF/classes/com/google/dao/MyDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/target/my_webapp/WEB-INF/classes/com/google/model/MyModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/target/my_webapp/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/target/my_webapp/WEB-INF/jsp/base.jspf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/target/my_webapp/WEB-INF/jsp/view/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/target/my_webapp/WEB-INF/lib/javax.el-api-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/target/my_webapp/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/target/my_webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Chapter7/play/target/my_webapp/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1qMqrS0D3eqfADCztcWEZ9pa8X2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Code\Java\JavaWeb(IDEA)\From Book\Java for Web Applications\Chapter8\Template-Tags\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Template_Tags/" />
+      <deployment>
+        <artifact name="Template-Tags:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Template_Tags" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="5790827f-5ef5-4800-9456-4627d5f4c31c" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="6110" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Template-Tags:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="e833212a-e8a3-4e1c-967e-b0b4947f7581" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="6110" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b95ba5e-e538-49f4-8958-99690a39bd2e" name="Default Changelist" comment="" />
+      <created>1616900008877</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616900008877</updated>
+      <workItem from="1616900019708" duration="70000" />
+      <workItem from="1616900106700" duration="51000" />
+      <workItem from="1616900180878" duration="19000" />
+      <workItem from="1616900217775" duration="108000" />
+      <workItem from="1616900345469" duration="3362000" />
+      <workItem from="1616999853391" duration="3440000" />
+      <workItem from="1617003414664" duration="1486000" />
+      <workItem from="1617060772215" duration="976000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

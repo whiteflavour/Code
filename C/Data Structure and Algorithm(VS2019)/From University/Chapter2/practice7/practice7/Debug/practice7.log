@@ -1,0 +1,4 @@
+﻿  collection_a_only.c
+F:\Code\C\Data Structure and Algorithm(VS2019)\From University\Chapter2\practice7\practice7\sq_list.h(71,13): warning C4047: 'return': 'element_type' differs in levels of indirection from 'void *'
+F:\Code\C\Data Structure and Algorithm(VS2019)\From University\Chapter2\practice7\practice7\sq_list.h(140,13): warning C4047: 'return': 'element_type' differs in levels of indirection from 'void *'
+  practice7.vcxproj -> F:\Code\C\Data Structure and Algorithm(VS2019)\From University\Chapter2\practice7\practice7\Debug\practice7.exe

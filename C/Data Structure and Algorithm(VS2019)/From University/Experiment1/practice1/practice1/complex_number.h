@@ -3,6 +3,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+struct complex_number
+{
+	int real_part;
+	int imaginary_part;
+};
+
 void select_function()
 {
 	printf("---------------------Welcome to complex number computing program------------------------\n\n");
@@ -59,4 +65,37 @@ void init()
 		case 6:
 			depart_imaginary_part();
 	}
+}
+
+void create_complex_number()
+{
+	int input_number_a;
+	int input_number_b;
+
+	printf("Enter the real part first, and then enter the imaginary part, and press blank space to divide them: \n");
+	scanf("%d %d", &input_number_a, &input_number_b);
+
+	struct complex_number created_complex_number;
+	created_complex_number.real_part = input_number_a;
+	created_complex_number.imaginary_part = input_number_b;
+
+	printf("The complex number is : %d% + di\n", input_number_a, input_number_b);
+}
+
+void sum()
+{
+	int input_number_a1;
+	int input_number_a2;
+	int input_number_b1;
+	int input_number_b2;
+	int real_part_sum;
+	int imaginary_part_sum;
+
+	printf("先输入一个实部和一个虚部，再输入另一个实部和虚部，分别用空格隔开：\n");
+	scanf("%d %d %d %d", &input_number_a1, &input_number_a2, &input_number_b1, &input_number_b2);
+
+	real_part_sum = input_number_a1 + input_number_b1;
+	imaginary_part_sum = input_number_a2 + input_number_b2;
+
+	printf("\(%d + %di\) + \(%d + %di\) = %d + %di\n", input_number_a1, input_number_a2, input_number_b1, input_number_b2, real_part_sum, imaginary_part_sum);
 }

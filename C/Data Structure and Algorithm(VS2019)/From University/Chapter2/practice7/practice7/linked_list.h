@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include<stdio.h>
 #include<stdbool.h>
@@ -11,7 +11,7 @@ struct Linked_list
 {
 	element_type data;
 	struct Linked_list* next;
-} *head, *tail;
+} *head, * tail;
 
 void init_linked_list()
 {
@@ -104,14 +104,14 @@ element_type delete_node(struct Linked_list* node)
 	free(node->next);
 	--SIZE;
 
-//	if (node->next == NULL)
-//	{
-//		tail = head;
-//		for (int i = 0; i < SIZE; ++i)
-//		{
-//			tail = tail->next;
-//		}
-//	}
+	//	if (node->next == NULL)
+	//	{
+	//		tail = head;
+	//		for (int i = 0; i < SIZE; ++i)
+	//		{
+	//			tail = tail->next;
+	//		}
+	//	}
 
 	return element;
 }

@@ -1,4 +1,0 @@
-﻿  linked_list_test.c
-F:\Code\C\Data Structure and Algorithm(VS2019)\From University\Chapter2\linked_list\linked_list.h(19,19): warning C4047: '=': 'element_type' differs in levels of indirection from 'void *'
-F:\Code\C\Data Structure and Algorithm(VS2019)\From University\Chapter2\linked_list\linked_list.h(90,14): warning C4047: 'return': 'element_type' differs in levels of indirection from 'void *'
-  linked_list.vcxproj -> F:\Code\C\Data Structure and Algorithm(VS2019)\From University\Chapter2\linked_list\x64\Debug\linked_list.exe
