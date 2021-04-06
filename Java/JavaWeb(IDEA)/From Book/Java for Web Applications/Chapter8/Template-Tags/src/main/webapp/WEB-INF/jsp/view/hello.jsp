@@ -9,6 +9,7 @@
 <%@ include file="/WEB-INF/jsp/base.jspf"%>
 <%@ taglib prefix="template" tagdir="/WEB-INF/tags/template"%>
 
+<%--使用自定义标签：HTML 模板。--%>
 <template:main htmlTitle="Hello tags">
     Hello, my tags.
 </template:main>

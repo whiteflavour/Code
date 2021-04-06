@@ -7,6 +7,8 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
 <%@ taglib prefix="he" uri="https://liao.hello-tag.com"%>
+
+<%--使用自定义标签：格式化日期。--%>
 <html>
 <head>
     <title>Format</title>

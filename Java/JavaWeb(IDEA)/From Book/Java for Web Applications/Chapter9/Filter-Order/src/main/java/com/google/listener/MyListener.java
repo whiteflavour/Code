@@ -1,11 +1,8 @@
 package com.google.listener;
 
-import com.google.filter.MyFilter;
-
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
-import java.util.EnumSet;
 
 @WebListener
 public class MyListener implements ServletContextListener, HttpSessionListener, HttpSessionAttributeListener {

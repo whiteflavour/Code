@@ -2,6 +2,7 @@
 <%@ attribute name="htmlTitle" type="java.lang.String" rtexprvalue="true" required="true"%>
 <%@ include file="/WEB-INF/jsp/base.jspf"%>
 
+<%--自定义标签：一个 HTML 模板。--%>
 <!DOCTYPE html>
 <html <c:forEach items="${dynamicAttributes}" var="a">
     <c:out value="${a.key} = '${fn:escapeXml(a.value)}'" escapeXml="false"/>

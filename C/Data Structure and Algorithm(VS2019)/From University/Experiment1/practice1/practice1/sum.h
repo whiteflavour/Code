@@ -17,6 +17,6 @@ void sum(int* array, int size, int* odd, int* even)
 		}
 	}
 
-	printf("ÆæÊıÖ®ºÍ£º%d, ", *odd);
-	printf("Å¼ÊıÖ®ºÍ£º%d\n", *even);
+	printf("å¥‡æ•°ä¹‹å’Œï¼š%d, ", *odd);
+	printf("å¶æ•°ä¹‹å’Œï¼š%d\n", *even);
 }
