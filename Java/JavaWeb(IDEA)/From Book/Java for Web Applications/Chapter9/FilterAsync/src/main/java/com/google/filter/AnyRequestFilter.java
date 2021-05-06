@@ -7,6 +7,12 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpServletResponseWrapper;
 import java.io.IOException;
 
+/**
+ * 过滤器，看是否含有 wrapped 对象。
+ *
+ * @author wrox, Liao
+ * @date 2021-4-18
+ */
 public class AnyRequestFilter implements Filter {
     private String name;
 

@@ -5,6 +5,12 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
+/**
+ * 异步情况。
+ *
+ * @author wrox, Liao
+ * @date 2021-4-18
+ */
 @WebServlet(
         name = "AsyncServlet",
         urlPatterns = {"/async"},
@@ -27,6 +33,8 @@ public class AsyncServlet extends HttpServlet {
         System.out.println("Starting asynchronous thread. Request ID: " + id + ". ");
 
         AsyncThread thread = new AsyncThread(id, context);
+
+        // 开启异步线程
         context.start(thread::doWork);
 
         System.out.println("Leaving AsyncServlet.doGet(). Request ID = " + id + ", isAsyncStarted = " + request.isAsyncStarted());

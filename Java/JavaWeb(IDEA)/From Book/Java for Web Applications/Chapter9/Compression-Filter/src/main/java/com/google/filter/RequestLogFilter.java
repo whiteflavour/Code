@@ -3,13 +3,18 @@ package com.google.filter;
 import org.apache.commons.lang3.time.StopWatch;
 
 import javax.servlet.*;
-import javax.servlet.annotation.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.time.Instant;
 
-@WebFilter(filterName = "RequestLogFilter")
+/**
+ * 日志过滤器，因为是编程配置，且比 CompressionFilter 更先配置，所以它比 CompressionFilter 先调用。
+ * 每次调用，它会在控制台输出一些日志记录。
+ *
+ * @author wrox, Liao
+ * @date 2021-4-18
+ */
 public class RequestLogFilter implements Filter {
     public void init(FilterConfig config) throws ServletException {
     }

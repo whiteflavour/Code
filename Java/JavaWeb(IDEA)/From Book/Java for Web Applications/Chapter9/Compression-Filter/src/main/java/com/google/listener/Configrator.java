@@ -7,6 +7,12 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
+/**
+ * 通过编程的方法配置 WebFilter 。
+ *
+ * @author wrox, Liao
+ * @date 2021-4-18
+ */
 @WebListener
 public class Configrator implements ServletContextListener, HttpSessionListener, HttpSessionAttributeListener {
 

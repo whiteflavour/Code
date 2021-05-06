@@ -1,4 +1,4 @@
 <%@ page contentType="text/html;charset=UTF-8" isELIgnored="false"%>
 
-<%--@elvariable id="sum" type="java.lang.Integer"--%>
-Result is : ${sum}
+<%--@elvariable id="alien" type="com.google.model.Alien"--%>
+Result is : ${alien}

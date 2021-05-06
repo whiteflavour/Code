@@ -1,7 +1,6 @@
 package com.google.filter;
 
 import javax.servlet.*;
-import javax.servlet.annotation.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpServletResponseWrapper;
@@ -10,7 +9,12 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.util.zip.GZIPOutputStream;
 
-@WebFilter(filterName = "CompressionFilter")
+/**
+ * 压缩过滤器。
+ *
+ * @author wrox, Liao
+ * @date 2021-4-18
+ */
 public class CompressionFilter implements Filter {
     public void init(FilterConfig config) throws ServletException {
     }

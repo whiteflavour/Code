@@ -5,6 +5,12 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
+/**
+ * 抄过来玩儿玩儿。
+ *
+ * @author wrox, Liao
+ * @date 2021-4-18
+ */
 @WebServlet(
         name = "compressedServlet",
         urlPatterns = {"/servlet"}
