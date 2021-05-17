@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean class="org.springframework.beans.factory.config.CustomScopeConfigurer">
+        <property name="scopes">
+            <map>
+                <entry key="thread">
+                    <bean class="org.springframework.context.support.SimpleThreadScope"/>
+                </entry>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="goods" class="com.google.ioc.Goods">
+        <constructor-arg value="10.1" />
+    </bean>
+
+    <bean id="consumer" class="com.google.ioc.Consumer">
+        <property name="id" value="1"/>
+        <property name="money" value="10.88" />
+        <property name="goods" ref="goods" />
+    </bean>
+
+    <bean id="mockDemo" class="com.google.ioc.MockDemo">
+        <property name="map">
+            <map>
+                <entry key="0" value="111" />
+                <entry key="1" value="222" />
+                <entry value="22">
+                    <key><null /></key>
+                </entry>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="shit" class="com.google.hierarchy.Shit">
+    </bean>
+
+    <bean id="fruit" parent="shit" abstract="true">
+    </bean>
+
+    <bean id="apple" class="com.google.hierarchy.Apple" parent="fruit" scope="thread">
+        <property name="color" value="red" />
+        <aop:scoped-proxy/>
+    </bean>
+
+    <bean id="banana" class="com.google.hierarchy.Banana" parent="fruit">
+        <property name="color" value="yellow" />
+    </bean>
+</beans>

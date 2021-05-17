@@ -4,112 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="930ddeba-53d3-4afa-8f66-bbd1f4164cc9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/linked_list.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/linked_list.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/linked_list_test.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Chapter2/linked_list/linked_list_test.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Experiment1/practice1/practice1/sum.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../C/Data Structure and Algorithm(VS2019)/From University/Experiment1/practice1/practice1/sum.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/.idea/artifacts/Template_Tags_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/.idea/artifacts/Template_Tags_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/Template-Tags.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/src/main/java/com/google/controller/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/src/main/java/com/google/controller/IndexServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/src/main/java/com/google/tag/HelloTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/src/main/java/com/google/tag/HelloTag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/src/main/webapp/WEB-INF/jsp/view/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/src/main/webapp/WEB-INF/jsp/view/hello.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/src/main/webapp/WEB-INF/tags/template/main.tag" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/src/main/webapp/WEB-INF/tags/template/main.tag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/src/main/webapp/WEB-INF/tld/hello.tld" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/src/main/webapp/WEB-INF/tld/hello.tld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/src/main/webapp/format.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/src/main/webapp/format.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/classes/com/google/controller/IndexServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/classes/com/google/dao/MyDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/classes/com/google/model/MyModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/classes/com/google/tag/HelloTag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/my_webapp/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/my_webapp/WEB-INF/classes/com/google/controller/IndexServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/my_webapp/WEB-INF/classes/com/google/dao/MyDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/my_webapp/WEB-INF/classes/com/google/model/MyModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/my_webapp/WEB-INF/classes/com/google/tag/HelloTag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/my_webapp/WEB-INF/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/my_webapp/WEB-INF/jsp/base.jspf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/my_webapp/WEB-INF/jsp/view/hello.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/my_webapp/WEB-INF/lib/commons-lang3-3.12.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/my_webapp/WEB-INF/lib/javax.el-api-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/my_webapp/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/my_webapp/WEB-INF/tags/template/main.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/my_webapp/WEB-INF/tld/hello.tld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/my_webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/my_webapp/format.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter8/Template-Tags/target/my_webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter9/Filter-Order/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter9/Filter-Order/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter9/Filter-Order/Filter-Order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter9/Filter-Order/Filter-Order.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter9/Filter-Order/src/main/java/com/google/controller/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter9/Filter-Order/src/main/java/com/google/controller/ServletOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter9/Filter-Order/src/main/java/com/google/filter/MyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter9/Filter-Order/src/main/java/com/google/filter/FilterA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter9/Filter-Order/src/main/java/com/google/listener/MyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter9/Filter-Order/src/main/java/com/google/listener/MyListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter9/Filter-Order/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../From Book/Java for Web Applications/Chapter9/Filter-Order/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a958b9b1-3bf9-4534-83c6-f46759820e45" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/__artifactId__.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/main/resources/archetype-resources/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/src/test/resources/projects/basic/archetype.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/archetype/src/test/resources/projects/basic/archetype.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/META-INF/maven/archetype-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/META-INF/maven/archetype-metadata.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/__artifactId__.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/classes/archetype-resources/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/my_webapp-archetype-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/my_webapp-archetype-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/archetype.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/archetype.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/src/main/java/it/pkg/controller/MyServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/src/main/java/it/pkg/dao/MyDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/src/main/java/it/pkg/model/MyModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/src/main/resources/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/src/main/webapp/WEB-INF/jsp/base.jspf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/src/main/webapp/WEB-INF/jsp/view/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/archetype/target/test-classes/projects/basic/project/basic/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/Udemy/Spring From Telusko/Spring-Security/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/Udemy/Spring From Telusko/Spring-Security/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/Udemy/Spring From Telusko/Spring-Security/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/Udemy/Spring From Telusko/Spring-Security/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/Udemy/Spring From Telusko/Spring-Security/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/Udemy/Spring From Telusko/Spring-Security/mvnw.cmd" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +47,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectId" id="1qdaVg45hu0K4ODVtgPs2DWIdXv" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Maven\repository" />
+        <option name="mavenHome" value="E:\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sQTt1e0bDNR58WIRDzbepHok37" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -135,7 +72,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -309,13 +246,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="930ddeba-53d3-4afa-8f66-bbd1f4164cc9" name="Default Changelist" comment="" />
-      <created>1617411946790</created>
+      <changelist id="a958b9b1-3bf9-4534-83c6-f46759820e45" name="Default Changelist" comment="" />
+      <created>1620804025263</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1617411946790</updated>
-      <workItem from="1617411947986" duration="81000" />
-      <workItem from="1617412039351" duration="17000" />
+      <updated>1620804025263</updated>
+      <workItem from="1620804026491" duration="314000" />
     </task>
     <servers />
   </component>
@@ -332,6 +268,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

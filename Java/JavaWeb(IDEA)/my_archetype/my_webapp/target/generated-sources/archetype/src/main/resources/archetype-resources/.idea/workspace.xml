@@ -3,11 +3,20 @@
 #set( $symbol_escape = '\' )
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:${symbol_escape}Maven${symbol_escape}repository" />
+        <option name="mavenHome" value="E:${symbol_escape}Maven${symbol_escape}apache-maven-3.6.3-bin${symbol_escape}apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:${symbol_escape}Maven${symbol_escape}apache-maven-3.6.3-bin${symbol_escape}apache-maven-3.6.3${symbol_escape}conf${symbol_escape}settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.43" type="${symbol_pound}com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
