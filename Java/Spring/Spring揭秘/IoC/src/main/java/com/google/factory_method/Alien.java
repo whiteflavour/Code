@@ -1,11 +1,16 @@
 package com.google.factory_method;
 
 public class Alien {
-    // private Laptop laptop = ComputerFactory.getLaptop();
-    private Desktop desktop = ComputerFactory.getDesktop();
+    private Laptop laptop;
 
-    public void code() {
-       // System.out.println("Coding " + laptop.showMethod());
-         System.out.println("Coding " + desktop.showMethod());
+    public Alien() {
+    }
+
+    public Laptop getLaptop() {
+        return laptop;
+    }
+
+    public void setLaptop(Laptop laptop) {
+        this.laptop = laptop;
     }
 }
