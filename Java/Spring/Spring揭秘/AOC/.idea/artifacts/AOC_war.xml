@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AOC:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>AOC</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="my_webapp.war">
+      <element id="artifact" artifact-name="AOC:war exploded" />
+    </root>
+  </artifact>
+</component>
