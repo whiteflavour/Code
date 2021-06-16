@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Common Weaving -->
+    <bean id="pointcut" class="org.springframework.aop.support.NameMatchMethodPointcut">
+        <property name="mappedName" value="execute"/>
+    </bean>
+
+    <bean id="performanceInterceptor" class="com.google.weaving.interface_based.PerformanceMethodInterceptor">
+    </bean>
+
+    <bean id="performanceAdvisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+        <property name="pointcut" ref="pointcut"/>
+        <property name="advice" ref="performanceInterceptor"/>
+    </bean>
+
+    <bean id="mockTask" class="com.google.weaving.interface_based.MockTask" scope="prototype"/>
+
+    <bean id="counterImpl" class="com.google.with_ioc_container.CounterImpl" scope="prototype">
+        <property name="counter" value="2"/>
+    </bean>
+
+    <bean id="targetProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="targetSource" ref="threadLocalTargetSource"/>
+        <property name="interceptorNames" value="performanceAdvisor"/>
+    </bean>
+    <!-- Target Source -->
+    <bean id="threadLocalTargetSource" class="org.springframework.aop.target.ThreadLocalTargetSource">
+        <property name="targetBeanName" value="mockTask"/>
+    </bean>
+
+    <!-- Auto Proxy Creator -->
+    <!-- <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"/> -->
+</beans>
