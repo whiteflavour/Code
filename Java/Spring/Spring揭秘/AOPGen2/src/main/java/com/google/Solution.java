@@ -1,13 +1,16 @@
 package com.google;
 
 public class Solution {
-    public int removeDuplicates(int[] nums) {
-        int originIndex = 0;
-        int flowIndex = 1;
-        for (; originIndex < nums.length; ++originIndex) {
-            while (flowIndex < nums.length) {
-                
-            }
+    public boolean isValid(String s) {
+        // 用栈
+        if (s.length() % 2 != 0) {
+            return false;
         }
+        while (s.contains("{}") || s.contains("()") || s.contains("[]")) {
+            s = s.replace("{}", "")
+                    .replace("[]", "")
+                    .replace("()", "");
+        }
+        return s.length() == 0;
     }
 }

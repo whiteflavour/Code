@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.google.mapper.StudentMapper">
+    <select id="selectStudentById" parameterType="int" resultType="student">
+        select * from student where id = #{value}
+    </select>
+
+    <insert id="insertStudentByWrapper" parameterType="studentWrapper">
+        insert into student(name, age) values(#{student.name}, #{student.age})
+    </insert>
+
+    <insert id="insertStudentByName" parameterType="String">
+        insert into student(name) values(#{name})
+    </insert>
+
+    <!-- resultMap -->
+    <select id="selectAnotherStudent" parameterType="int" resultMap="anotherStudent">
+        select * from student where id = #{id}
+    </select>
+
+    <resultMap id="anotherStudent" type="anotherStudent">
+        <id column="id" property="aId"/>
+        <id column="name" property="aName"/>
+        <id column="age" property="aAge"/>
+    </resultMap>
+</mapper>

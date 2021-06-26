@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- <aop:aspectj-autoproxy proxy-target-class="true"/>
+    <aop:aspectj-autoproxy/> -->
+    <aop:config proxy-target-class="true">
+        <aop:aspect id="helloAspect" ref="helloAspect">
+            <aop:pointcut id="beforePointcut" expression="execution(public void execute(String)) and args(message)"/>
+            <aop:before method="sayHello" pointcut-ref="beforePointcut" arg-names="joinPoint,message"/>
+        </aop:aspect>
+    </aop:config>
+
+
+    <!-- Aspects -->
+    <bean id="performanceAspect" class="com.google.around_advice.PerformanceTraceAspect"/>
+    <bean id="helloAspect" class="com.google.before_advice.HelloAspect"/>
+    <bean id="divideZeroAspect" class="com.google.after_advice.after_throwing.DivideZeroExceptionAspect"/>
+    <bean id="returningAspect" class="com.google.after_advice.after_returning.ReturningAspect"/>
+    <bean id="shitAspect" class="com.google.after_advice.after_finally.FinallyAspect"/>
+    <bean id="aroundAspect" class="com.google.around_advice.AroundAspect"/>
+    <bean id="counterIntroduction" class="com.google.introduction.IntroductionAspect"/>
+    <bean id="orderedAspect" class="com.google.ordered.MultiAdvicesAspect" scope="prototype"/>
+    <bean id="anotherAspect" class="com.google.ordered.AnotherAspect" scope="prototype"/>
+
+    <!-- Targets -->
+    <bean id="target" class="com.google.around_advice.Foo"/>
+    <bean id="mockTask" class="com.google.before_advice.MockTask"/>
+    <bean id="divideZero" class="com.google.after_advice.after_throwing.DivideZeroClass"/>
+    <bean id="returning" class="com.google.after_advice.after_returning.ReturningClass"/>
+    <bean id="shitClass" class="com.google.after_advice.after_finally.FinallyClass"/>
+    <bean id="aroundClass" class="com.google.around_advice.AroundClass"/>
+    <bean id="task" class="com.google.introduction.MockTask" scope="prototype"/>
+</beans>

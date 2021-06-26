@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.google.mapper.StudentMapper">
+    <!-- sql, if and where tag -->
+    <sql id="studentField">
+        ${stu}.name,
+        ${stu}
+        .
+        age
+    </sql>
+    <select id="selectByNameOrAge" resultType="student" parameterType="student">
+        select
+        <include refid="studentField">
+            <property name="stu" value="student"/>
+        </include>
+        from student
+        <where>
+            <if test="name != null">
+                and name like #{name}
+            </if>
+            <if test="age != 0">
+                and age >= #{age}
+            </if>
+        </where>
+    </select>
+
+    <!-- foreach tag -->
+    <select id="selectIn" parameterType="student" resultType="student">
+        select * from student where age in
+        <foreach collection="ages" item="age" open="(" close=")" separator=",">
+            #{age}
+        </foreach>
+    </select>
+
+    <!-- multi-table select -->
+    <select id="selectStuAndOrder" resultType="result">
+        select stuId, name, age, price, datetime
+        from student
+                 left join fruit_shop_order on student.id = fruit_shop_order.stuId;
+    </select>
+</mapper>
