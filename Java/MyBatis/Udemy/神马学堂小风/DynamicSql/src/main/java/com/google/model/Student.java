@@ -1,11 +1,15 @@
 package com.google.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Student {
     private int id;
     private String name;
     private int age;
 
     private int[] ages;
+    private List<FruitShopOrder> orders = new ArrayList<>();
 
     public Student() {
     }
@@ -45,6 +49,14 @@ public class Student {
 
     public void setAges(int[] ages) {
         this.ages = ages;
+    }
+
+    public List<FruitShopOrder> getOrders() {
+        return orders;
+    }
+
+    public void setOrders(List<FruitShopOrder> orders) {
+        this.orders = orders;
     }
 
     @Override

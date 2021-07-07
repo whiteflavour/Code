@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="deec751e-f560-4532-9a11-ac47ef5ec40e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/src/main/java/com/google/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/src/main/java/com/google/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/src/main/java/com/google/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/src/main/java/com/google/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/src/main/java/com/google/model/FruitShopOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/src/main/java/com/google/model/FruitShopOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/src/main/resources/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/src/main/resources/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/src/test/java/com/google/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/src/test/java/com/google/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/src/test/java/com/google/test/DynamicSqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/src/test/java/com/google/test/DynamicSqlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/target/classes/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/target/classes/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/target/classes/com/google/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/target/classes/com/google/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/target/classes/com/google/mapper/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/target/classes/com/google/mapper/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/target/classes/com/google/model/FruitShopOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/target/classes/com/google/model/FruitShopOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/target/test-classes/com/google/SolutionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/target/test-classes/com/google/SolutionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/target/test-classes/com/google/test/DynamicSqlTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql/target/test-classes/com/google/test/DynamicSqlTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/AOPGen2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/src/main/java/com/google/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/src/test/java/com/google/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/after_advice/after_finally/FinallyAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/after_advice/after_finally/FinallyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/after_advice/after_returning/ReturningAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/after_advice/after_returning/ReturningClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/after_advice/after_throwing/DivideZeroClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/after_advice/after_throwing/DivideZeroExceptionAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/around_advice/AroundAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/around_advice/AroundClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/around_advice/Foo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/around_advice/PerformanceTraceAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/before_advice/HelloAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/before_advice/MockTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/extend/MethodCallMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/extend/MethodCallUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/extend/SomeAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/introduction/CounterImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/introduction/ICounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/introduction/ITask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/introduction/IntroductionAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/introduction/MockTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/ordered/AnotherAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/com/google/ordered/MultiAdvicesAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/classes/extendBeans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/test-classes/com/google/SolutionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AOPGen2/target/test-classes/com/google/aop_test/AopTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Maven\repository" />
+        <option name="mavenHome" value="E:/Maven/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1uYuc9LXINNCRCsNUMlm6cuEYF4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/google" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../MyBatis/Udemy/神马学堂小风/DynamicSql" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunManager" selected="JUnit.SolutionTest.someTest">
+    <configuration name="SolutionTest.someTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.google.SolutionTest.someTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SolutionTest.someTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDataAccess.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.google" />
+      <option name="MAIN_CLASS_NAME" value="com.google.SolutionTest" />
+      <option name="METHOD_NAME" value="someTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="5790827f-5ef5-4800-9456-4627d5f4c31c" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="6110" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="e833212a-e8a3-4e1c-967e-b0b4947f7581" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="6110" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SolutionTest.someTest" />
+        <item itemvalue="Gradle.SolutionTest.someTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="deec751e-f560-4532-9a11-ac47ef5ec40e" name="Default Changelist" comment="" />
+      <created>1624854923007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624854923007</updated>
+      <workItem from="1624854924728" duration="55000" />
+      <workItem from="1624861690520" duration="6442000" />
+      <workItem from="1624961700825" duration="367000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

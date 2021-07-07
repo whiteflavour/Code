@@ -1,0 +1,6 @@
+com/google/callback/HttpClientCallBack.java
+ com.google.callback.HttpClientCallBack
+com/google/template/HttpClientTemplate.java
+ com.google.template.HttpClientTemplate
+com/google/Solution.java
+ com.google.Solution

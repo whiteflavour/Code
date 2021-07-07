@@ -1,5 +1,6 @@
 package com.google.mapper;
 
+import com.google.model.FruitShopOrder;
 import com.google.model.Result;
 import com.google.model.Student;
 
@@ -11,4 +12,8 @@ public interface StudentMapper {
     List<Student> selectIn(Student student);
 
     List<Result> selectStuAndOrder();
+
+    List<FruitShopOrder> selectStuAndOrderResultMap();
+
+    List<Student> selectOrders();
 }

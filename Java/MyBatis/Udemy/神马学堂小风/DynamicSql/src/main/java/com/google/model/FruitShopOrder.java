@@ -8,6 +8,8 @@ public class FruitShopOrder {
     private double price;
     private Timestamp datetime;
 
+    private Student student;
+
     public FruitShopOrder() {
     }
 
@@ -41,5 +43,13 @@ public class FruitShopOrder {
 
     public void setDatetime(Timestamp datetime) {
         this.datetime = datetime;
+    }
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
     }
 }

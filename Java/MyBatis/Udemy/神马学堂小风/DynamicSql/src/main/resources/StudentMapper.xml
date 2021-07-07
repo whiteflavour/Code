@@ -40,4 +40,38 @@
         from student
                  left join fruit_shop_order on student.id = fruit_shop_order.stuId;
     </select>
+
+    <!-- result map -->
+    <select id="selectStuAndOrderResultMap" resultMap="fruitShopOrder">
+        select stuId, name, age, price, datetime
+        from student
+                 right join fruit_shop_order on student.id = fruit_shop_order.stuId;
+    </select>
+
+    <resultMap id="fruitShopOrder" type="FruitShopOrder">
+        <result column="stuId" property="stuId"/>
+        <result column="price" property="price"/>
+        <result column="datetime" property="datetime"/>
+        <association property="student" javaType="Student">
+            <result column="name" property="name"/>
+            <result column="age" property="age"/>
+        </association>
+    </resultMap>
+
+    <!-- 一对多查询 -->
+    <select id="selectOrders" resultMap="stuOrders">
+        select fruit_shop_order.id as order_id, name, age, price, datetime
+        from fruit_shop_order
+                 left join student on student.id = stuId;
+    </select>
+
+    <resultMap id="stuOrders" type="Student">
+        <result column="name" property="name"/>
+        <result column="age" property="age"/>
+        <collection property="orders" javaType="FruitShopOrder">
+            <id column="order_id" property="id"/>
+            <result column="price" property="price"/>
+            <result column="datetime" property="datetime"/>
+        </collection>
+    </resultMap>
 </mapper>
