@@ -14,7 +14,7 @@ public class Example2Test {
         shoppingCart.addProduct(new Product("Google Pixel", 999));
         for (Product product : shoppingCart.getProducts()) {
             product.pay(new PaypalPayment());
-            // product.pay(new CreditCardPayment());
+            product.pay(new CreditCardPayment());
         }
     }
 }

@@ -1,0 +1,10 @@
+com/google/example/AmericanObserver.java
+ com.google.example.AmericanObserver
+com/google/example/Observer.java
+ com.google.example.Observer
+com/google/example/ChineseObserver.java
+ com.google.example.ChineseObserver
+com/google/example/Subject.java
+ com.google.example.Subject
+com/google/Solution.java
+ com.google.Solution

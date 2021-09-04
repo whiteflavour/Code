@@ -1,6 +1,0 @@
-com/google/test/SolutionTest.java
- com.google.test.SolutionTest
-com/google/test/example1/Example1Test.java
- com.google.test.example1.Example1Test
-com/google/test/example2/Example2Test.java
- com.google.test.example2.Example2Test

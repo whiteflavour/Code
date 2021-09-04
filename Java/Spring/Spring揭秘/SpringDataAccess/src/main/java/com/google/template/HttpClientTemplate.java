@@ -9,7 +9,7 @@ import org.apache.http.impl.client.HttpClients;
 import java.io.IOException;
 
 /**
- * 自己实现的 HttpClientTemplate 封装类
+ * 自己实现的 HttpClientTemplate 封装类，类似于 JDBCTemplate
  *
  * @author Liao
  * @date 2021-6-27
