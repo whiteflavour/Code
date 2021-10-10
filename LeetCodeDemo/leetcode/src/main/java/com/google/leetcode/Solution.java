@@ -3,17 +3,20 @@ package com.google.leetcode;
 import java.util.*;
 
 public class Solution {
-    public List<List<String>> groupAnagrams(String[] strs) {
-        Map<String, List<String>> map = new HashMap<>();
-        for (String str : strs) {
-            char[] ch = str.toCharArray();
-            Arrays.sort(ch);
-            String keyStr = String.valueOf(ch);
-            if (!map.containsKey(keyStr)) {
-                map.put(keyStr, new ArrayList<>());
-            }
-            map.get(keyStr).add(str);
+    private Integer[][] memo;
+
+    public int minimumTotal(List<List<Integer>> triangle) {
+        memo = new Integer[triangle.size()][triangle.get(0).size()];
+        return dfs(triangle, 0, 0);
+    }
+
+    public int dfs(List<List<Integer>> triangle, int row, int col) {
+        if (row == triangle.size()) {
+            return 0;
         }
-        return new ArrayList<>(map.values());
+        if (memo[row][col] != null) {
+            return memo[row][col];
+        }
+        return memo[row][col] = Math.min(dfs(triangle, row + 1, col), dfs(triangle, row + 1, col + 1)) + triangle.get(row).get(col);
     }
 }

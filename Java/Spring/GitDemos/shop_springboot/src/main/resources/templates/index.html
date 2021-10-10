@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Store Home</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+        <h1>Welcome to L Store</h1>
+        <div id="container">
+            <ul>
+                <th:block th:each="g:${goodsList}">
+                    <li>
+                        <div class="info">
+                            <p>
+                                名称：
+                                <span th:text="${g.getName()}"></span>
+                            </p>
+                            <p>
+                                价格：
+                                <span th:text="${g.getPrice()}"></span>
+                            </p>
+                            <p>
+                                <a th:href="@{/favorite(name=${g.getName()}, price=${g.getPrice()})}">Add to favorite</a>
+                            </p>
+                        </div>
+                    </li>
+                </th:block>
+            </ul>
+        </div>
+
+        <a href="login">Login</a>
+    </body>
+</html>

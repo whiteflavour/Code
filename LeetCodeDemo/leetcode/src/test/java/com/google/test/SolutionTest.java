@@ -3,14 +3,21 @@ package com.google.test;
 import com.google.leetcode.Solution;
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class SolutionTest {
     @Test
     public void testSolution() {
         Solution solution = new Solution();
-        int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
-        solution.rotate(matrix);
-        System.out.println(Arrays.deepToString(matrix));
+        System.out.println();
+    }
+
+    @Test
+    public void otherTest() {
+        List<Integer> list1 = new ArrayList<>(Arrays.asList(1, 1));
+        List<Integer> list2 = new ArrayList<>(Arrays.asList(1, null, 1));
+        System.out.println(list1.equals(list2));
     }
 }

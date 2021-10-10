@@ -1,4 +1,0 @@
-com/google/test/ObserverPatternTest.java
- com.google.test.ObserverPatternTest
-com/google/SolutionTest.java
- com.google.SolutionTest
