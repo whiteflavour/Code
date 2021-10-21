@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.google.IteratorPatternTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-21T08:26:56" hostname="FLUCKY" time="0.02">
+  <properties/>
+  <testcase name="testIteratorPattern()" classname="com.google.IteratorPatternTest" time="0.02"/>
+  <system-out><![CDATA[Tom
+Jack
+Rose
+Jerry
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
