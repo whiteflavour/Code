@@ -2,36 +2,41 @@ package com.google.leetcode;
 
 import java.util.*;
 
-public class Solution {
-    public List<Integer> postorderTraversal(TreeNode root) {
-        List<Integer> ans = new ArrayList<>();
-        if (root == null) {
-            return ans;
+class Solution {
+    public ListNode insertionSortList(ListNode head) {
+        if (head == null) {
+            return head;
         }
-        Deque<TreeNode> stack = new LinkedList<>();
-        stack.push(root);
-        TreeNode pre = root;
-        while (root != null && !stack.isEmpty()) {
-            while (root != null) {
-                root = root.left;
-                stack.push(root);
-            }
-            root = stack.pop();
-            if (root.right == null || root.right == pre) {
-                ans.add(root.val);
-                pre = root;
-                root = null;
-            } else {
-                root = root.right;
+        ListNode dummy = new ListNode(0, head);
+        ListNode pre = head;
+        ListNode cur = head.next;
+        ListNode ordered = head;
+        ListNode orderedPre = dummy;
+        while (cur != null) {
+            while (cur != null && ordered != cur) {
+                if (cur.val < ordered.val) {
+                    pre.next = cur.next;
+                    cur.next = orderedPre.next;
+                    orderedPre.next = cur;
+                    if (ordered == head) {
+                        head = cur;
+                        dummy.next = cur;
+                    }
+                    orderedPre = dummy;
+                    ordered = head;
+                    cur = pre.next;
+                } else {
+                    orderedPre = orderedPre.next;
+                    ordered = ordered.next;
+                    if (ordered == cur) {
+                        pre = pre.next;
+                        cur = cur.next;
+                        orderedPre = dummy;
+                        ordered = head;
+                    }
+                }
             }
         }
-        return ans;
+        return dummy.next;
     }
 }
-
-// 1. left -> push, to bottom
-// 3. print
-// 4. pop
-// 5. right
-// 6. print
-// 7. pop -> print
