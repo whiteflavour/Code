@@ -2,41 +2,31 @@ package com.google.leetcode;
 
 import java.util.*;
 
-class Solution {
-    public ListNode insertionSortList(ListNode head) {
-        if (head == null) {
-            return head;
-        }
-        ListNode dummy = new ListNode(0, head);
-        ListNode pre = head;
-        ListNode cur = head.next;
-        ListNode ordered = head;
-        ListNode orderedPre = dummy;
-        while (cur != null) {
-            while (cur != null && ordered != cur) {
-                if (cur.val < ordered.val) {
-                    pre.next = cur.next;
-                    cur.next = orderedPre.next;
-                    orderedPre.next = cur;
-                    if (ordered == head) {
-                        head = cur;
-                        dummy.next = cur;
-                    }
-                    orderedPre = dummy;
-                    ordered = head;
-                    cur = pre.next;
-                } else {
-                    orderedPre = orderedPre.next;
-                    ordered = ordered.next;
-                    if (ordered == cur) {
-                        pre = pre.next;
-                        cur = cur.next;
-                        orderedPre = dummy;
-                        ordered = head;
-                    }
+public class Solution {
+    public int evalRPN(String[] tokens) {
+        Deque<String> stack = new LinkedList<>();
+        for (String token : tokens) {
+            if (token.length() >  1 || Character.isDigit(token.charAt(0))) {
+                stack.push(token);
+            } else {
+                int num1 = Integer.parseInt(stack.pop());
+                int num2 = Integer.parseInt(stack.pop());
+                switch (token) {
+                    case "+":
+                        stack.push(String.valueOf(num1 + num2));
+                        break;
+                    case "-":
+                        stack.push(String.valueOf(num2 - num1));
+                        break;
+                    case "*":
+                        stack.push(String.valueOf(num1 * num2));
+                        break;
+                    case "/":
+                        stack.push(String.valueOf(num2 / num1));
+                        break;
                 }
             }
         }
-        return dummy.next;
+        return Integer.getInteger(stack.pop());
     }
 }

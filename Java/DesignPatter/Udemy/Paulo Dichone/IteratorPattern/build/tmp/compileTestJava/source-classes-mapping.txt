@@ -1,2 +1,0 @@
-com/google/IteratorPatternTest.java
- com.google.IteratorPatternTest

@@ -1,8 +1,0 @@
-com/google/interfaces/Container.java
- com.google.interfaces.Container
-com/google/interfaces/Iterator.java
- com.google.interfaces.Iterator
-com/google/model/NameRepository.java
- com.google.model.NameRepository
- com.google.model.NameRepository$1
- com.google.model.NameRepository$NameRepositoryIterator
