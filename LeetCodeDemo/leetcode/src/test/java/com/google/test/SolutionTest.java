@@ -11,7 +11,7 @@ public class SolutionTest {
     @Test
     public void testSolution() {
         Solution solution = new Solution();
-        System.out.println(solution.canCompleteCircuit(new int[]{3,1,1}, new int[]{1,2,2}));
+        System.out.println(solution.solveNQueens(4));
     }
 
     @Test

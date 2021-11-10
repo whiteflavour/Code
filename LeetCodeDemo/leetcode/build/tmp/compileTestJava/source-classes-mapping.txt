@@ -1,0 +1,2 @@
+com/google/test/SolutionTest.java
+ com.google.test.SolutionTest
