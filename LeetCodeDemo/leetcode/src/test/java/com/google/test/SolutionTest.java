@@ -11,7 +11,7 @@ public class SolutionTest {
     @Test
     public void testSolution() {
         Solution solution = new Solution();
-        System.out.println(solution.solveNQueens(4));
+        System.out.println(solution.getPermutation(3, 3));
     }
 
     @Test

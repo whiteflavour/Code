@@ -3,57 +3,36 @@ package com.google.leetcode;
 import java.util.*;
 
 public class Solution {
-    public List<List<String>> solveNQueens(int n) {
-        char[][] chess = new char[n][n];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                chess[i][j] = '.';
-            }
-        }
-        List<List<String>> res = new ArrayList<List<String>>();
+    private Deque<String> ans;
 
-        solve(res, chess, 0);
-        return res;
+    public String getPermutation(int n, int k) {
+        ans = new LinkedList<>();
+        backtrack(new StringBuilder(), n, 0, k);
+        return ans.getLast();
     }
-    private void solve(List<List<String>> res, char[][] chess, int row) {
-        if (row == chess.length) {
-            res.add(construct(chess));
+
+    private void backtrack(StringBuilder path, int n, int start, int k) {
+        if (ans.size() >= k) {
             return;
         }
-        for (int col = 0; col < chess.length; col++) {
-            if (valid(chess, row, col)) {
-                chess[row][col] = 'Q';
-                solve(res, chess, row + 1);
-                chess[row][col] = '.';
+        if (path.length() == n) {
+            ans.add(String.valueOf(path));
+            return;
+        }
+        for (int i = 0; i < n; ++i) {
+            boolean hasValue = false;
+            for (int j = 0; j < path.length(); ++j) {
+                if (Character.digit(path.charAt(j), 10) == i + 1) {
+                    hasValue = true;
+                    break;
+                }
             }
-        }
-    }
-    private boolean valid(char[][] chess, int row, int col) {
-        // check all cols
-        for (int i = 0; i < row; i++) {
-            if (chess[i][col] == 'Q') {
-                return false;
+            if (hasValue) {
+                continue;
             }
+            path.append(i + 1);
+            backtrack(path, n, start + 1, k);
+            path.deleteCharAt(path.length() - 1);
         }
-        //check 45 degree
-        for (int i = row - 1, j = col + 1; i >= 0 && j < chess.length; i--, j++) {
-            if (chess[i][j] == 'Q') {
-                return false;
-            }
-        }
-        //check 135
-        for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--) {
-            if (chess[i][j] == 'Q') {
-                return false;
-            }
-        }
-        return true;
-    }
-    private List<String> construct(char[][] chess) {
-        List<String> path = new ArrayList<>();
-        for (int i = 0; i < chess.length; i++) {
-            path.add(new String(chess[i]));
-        }
-        return path;
     }
 }
