@@ -11,13 +11,14 @@ public class SolutionTest {
     @Test
     public void testSolution() {
         Solution solution = new Solution();
-        System.out.println(solution.getPermutation(3, 3));
+        System.out.println(solution.fullJustify(new String[]{"This", "is", "an", "example", "of", "text", "justification."}, 16));
     }
 
     @Test
     public void otherTest() {
-        List<Integer> list1 = new ArrayList<>(Arrays.asList(1, 1));
-        List<Integer> list2 = new ArrayList<>(Arrays.asList(1, null, 1));
-        System.out.println(list1.equals(list2));
+        StringBuilder sb = new StringBuilder();
+        sb.append("Hello").append("   ").append(", world")
+                .append("  ");
+        System.out.println(sb.toString().trim());
     }
 }

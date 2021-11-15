@@ -3,36 +3,71 @@ package com.google.leetcode;
 import java.util.*;
 
 public class Solution {
-    private Deque<String> ans;
+    public List<String> fullJustify(String[] words, int maxWidth) {
+        int left = 0;
+        List<String> ans = new ArrayList<>();
 
-    public String getPermutation(int n, int k) {
-        ans = new LinkedList<>();
-        backtrack(new StringBuilder(), n, 0, k);
-        return ans.getLast();
+        while (left < words.length) {
+            int right = findRight(words, left, maxWidth);
+            ans.add(justify(words, left, right, maxWidth));
+            left = right + 1;
+        }
+
+        return ans;
     }
 
-    private void backtrack(StringBuilder path, int n, int start, int k) {
-        if (ans.size() >= k) {
-            return;
-        }
-        if (path.length() == n) {
-            ans.add(String.valueOf(path));
-            return;
-        }
-        for (int i = 0; i < n; ++i) {
-            boolean hasValue = false;
-            for (int j = 0; j < path.length(); ++j) {
-                if (Character.digit(path.charAt(j), 10) == i + 1) {
-                    hasValue = true;
-                    break;
-                }
+    private int findRight(String[] words, int left, int maxWidth) {
+        int right = left;
+        int sum = 0;
+
+        for (; right < words.length; ++right) {
+            sum += words[right].length() + 1;
+            if (sum >= maxWidth) {
+                return right - 1;
             }
-            if (hasValue) {
-                continue;
-            }
-            path.append(i + 1);
-            backtrack(path, n, start + 1, k);
-            path.deleteCharAt(path.length() - 1);
         }
+
+        return right - 1;
+    }
+
+    private String justify(String[] words, int left, int right, int maxWidth) {
+        if (left == right) {
+            return padResult(words[left], maxWidth);
+        }
+
+        StringBuilder line = new StringBuilder();
+        boolean isLastLine = right == words.length - 1;
+        int spaces = maxWidth - wordsLength(words, left, right);
+        int spacesToInsert = right - left;
+
+        String space = isLastLine ? "" : blank(spaces / spacesToInsert);
+        int remainder = isLastLine? 0 : spaces % spacesToInsert;
+
+        for (int i = left; i <= right; ++i) {
+            line.append(words[i]).append(space)
+                    .append(remainder-- > 0 ? " " : "");
+        }
+
+        return padResult(String.valueOf(line).trim(), maxWidth);
+    }
+
+    private String padResult(String result, int maxWidth) {
+        return result + blank(maxWidth - result.length());
+    }
+
+    private int wordsLength(String[] words, int left, int right) {
+        int sum = 0;
+        for (int i = left; i <= right; ++i) {
+            sum += words[i].length();
+        }
+        return sum;
+    }
+
+    private String blank(int num) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < num; ++i) {
+            sb.append(" ");
+        }
+        return String.valueOf(sb);
     }
 }
