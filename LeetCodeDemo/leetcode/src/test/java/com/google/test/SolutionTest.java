@@ -11,7 +11,7 @@ public class SolutionTest {
     @Test
     public void testSolution() {
         Solution solution = new Solution();
-        System.out.println(solution.fullJustify(new String[]{"This", "is", "an", "example", "of", "text", "justification."}, 16));
+        System.out.println(solution.largestRectangleArea(new int[]{2,1,2}));
     }
 
     @Test

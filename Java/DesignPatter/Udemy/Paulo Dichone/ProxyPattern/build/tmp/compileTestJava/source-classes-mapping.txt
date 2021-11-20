@@ -1,2 +1,0 @@
-com/google/ProxyPatternTest.java
- com.google.ProxyPatternTest
