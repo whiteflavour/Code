@@ -11,14 +11,16 @@ public class SolutionTest {
     @Test
     public void testSolution() {
         Solution solution = new Solution();
-        System.out.println(solution.largestRectangleArea(new int[]{2,1,2}));
+        System.out.println(solution.maximalRectangle(new char[][]{{'1','1','1','1','1'}, {'1','1','1','1','1'}, {'1','1','1','1','1'}, {'1','1','1','1','1'}, {'1','1','1','1','1'},{'1','1','1','1','1'}, {'1','1','1','1','1'}, {'1','1','1','1','1'}, {'1','1','1','1','1'}, {'1','1','1','1','1'}}));
     }
 
     @Test
     public void otherTest() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Hello").append("   ").append(", world")
-                .append("  ");
-        System.out.println(sb.toString().trim());
+        char c1 = '1';
+        char c2 = '2';
+        int c = c1;
+        System.out.println(c);
+        System.out.println((char)(c1 + 1));
+        System.out.println(Character.digit(c2, 10) * 2);
     }
 }
