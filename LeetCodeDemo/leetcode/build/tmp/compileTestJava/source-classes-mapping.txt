@@ -1,2 +1,2 @@
-com/google/test/SolutionTest.java
- com.google.test.SolutionTest
+com/google/SolutionTest.java
+ com.google.SolutionTest

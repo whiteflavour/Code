@@ -1,2 +1,2 @@
-com/google/leetcode/Solution.java
- com.google.leetcode.Solution
+com/google/Solution.java
+ com.google.Solution

@@ -1,8 +1,0 @@
-com/google/view/StudentView.java
- com.google.view.StudentView
-com/google/model/Student.java
- com.google.model.Student
-com/google/MVCPatternDemo.java
- com.google.MVCPatternDemo
-com/google/controller/StudentController.java
- com.google.controller.StudentController

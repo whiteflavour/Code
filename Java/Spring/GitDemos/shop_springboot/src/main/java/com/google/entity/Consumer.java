@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 public class Consumer {
     private int id;
     private String username;
-    private String phoneNumber;
     private String password;
+    private String phoneNumber;
 
     public int getId() {
         return id;
