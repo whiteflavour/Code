@@ -1,6 +1,7 @@
 package com.google.controller;
 
 import com.google.entity.Goods;
+import com.google.service.IFavoriteService;
 import com.google.service.IGoodsService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,10 +14,13 @@ import java.util.List;
 public class LogoutController {
     @Resource
     private IGoodsService iGoodsService;
+    @Resource
+    private IFavoriteService iFavoriteService;
 
     @GetMapping("/logout")
     public String logout(RedirectAttributes redirectAttributes) {
         List<Goods> goodsList = iGoodsService.list();
+        iFavoriteService.clear();
         redirectAttributes.addFlashAttribute("goodList", goodsList);
         return "redirect:/";
     }

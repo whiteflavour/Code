@@ -10,4 +10,5 @@ public interface FavoriteMapper {
     int insert(Goods goods);
     List<Goods> selectAll();
     int delete(Goods goods);
+    int deleteAll();
 }

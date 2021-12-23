@@ -8,4 +8,5 @@ public interface IFavoriteService {
     int addToFavorite(Goods goods);
     List<Goods> showFavorite();
     int deleteFavorite(Goods goods);
+    int clear();
 }

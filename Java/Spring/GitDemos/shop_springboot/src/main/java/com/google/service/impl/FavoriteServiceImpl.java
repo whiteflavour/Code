@@ -27,4 +27,9 @@ public class FavoriteServiceImpl implements IFavoriteService {
     public int deleteFavorite(Goods goods) {
         return favoriteMapper.delete(goods);
     }
+
+    @Override
+    public int clear() {
+        return favoriteMapper.deleteAll();
+    }
 }

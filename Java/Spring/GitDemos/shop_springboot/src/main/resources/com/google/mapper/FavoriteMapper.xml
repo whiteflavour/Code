@@ -13,4 +13,8 @@
     <delete id="delete" parameterType="Goods">
         delete from favorite where name=#{name} and price=#{price}
     </delete>
+
+    <delete id="deleteAll">
+        truncate table favorite;
+    </delete>
 </mapper>
