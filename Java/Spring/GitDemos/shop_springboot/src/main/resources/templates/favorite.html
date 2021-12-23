@@ -19,7 +19,7 @@
                             <span th:text="${favorite.getPrice()}"></span>
                         </p>
                         <p>
-                            <a href="deleteFavorite">Delete from favorites</a>
+                            <a th:href="@{/deleteFavorite(name=${favorite.getName()}, price=${favorite.getPrice()})}">Delete from favorites</a>
                         </p>
                     </li>
                 </th:block>
