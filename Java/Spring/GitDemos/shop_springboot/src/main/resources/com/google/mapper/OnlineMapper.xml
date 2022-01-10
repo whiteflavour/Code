@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.google.mapper.OnlineMapper">
+    <insert id="addOnline" parameterType="Consumer">
+        insert into onlineUsers(username) values(#{uername})
+    </insert>
+
+    <delete id="deleteOnline" parameterType="Consumer">
+        delete from consumer where username=#{username}
+    </delete>
+
+    <delete id="deleteAll">
+        truncate table onlineUsers;
+    </delete>
+
+    <select id="findOnline" parameterType="Consumer" resultType="Consumer">
+        select * from onlineUsers where username=#{username}
+    </select>
+</mapper>

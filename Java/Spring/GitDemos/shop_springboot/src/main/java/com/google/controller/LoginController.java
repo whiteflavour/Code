@@ -4,6 +4,7 @@ import com.google.entity.Consumer;
 import com.google.entity.Goods;
 import com.google.service.IConsumerService;
 import com.google.service.IGoodsService;
+import com.google.service.IOnlineService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -24,6 +25,8 @@ public class LoginController {
     private IConsumerService iConsumerService;
     @Resource
     private IGoodsService iGoodsService;
+    @Resource
+    private IOnlineService iOnlineService;
 
     @PostMapping("/login")
     public String login(Consumer consumer, RedirectAttributes redirectAttributes, Model model) {
@@ -32,6 +35,7 @@ public class LoginController {
             model.addAttribute("err", "No such consumer or password error");
             return "login";
         }
+        iOnlineService.addOnlineUsers(cs.getUsername());
         List<Goods> goodsList = iGoodsService.list();
         redirectAttributes.addFlashAttribute("consumer", cs);
         redirectAttributes.addFlashAttribute("goodsList", goodsList);

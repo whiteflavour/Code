@@ -30,6 +30,6 @@
 
 
 <span th:text="${consumer.getUsername()}"></span>
-<a href="logout">Logout</a>
+<a th:href="@{/logout(name=${consumer.getUsername()})}">Logout</a>
 </body>
 </html>

@@ -28,3 +28,8 @@ create table favorite(
     name varchar(50) not null ,
     price decimal(10,2) not null
 );
+
+create table onlineUsers(
+    id bigint unsigned primary key auto_increment,
+    username varchar(50) not null
+);

@@ -6,44 +6,22 @@ import java.math.BigInteger;
 import java.util.*;
 
 public class SolutionTest {
-    private Map<BigInteger, BigInteger> cache = new HashMap<>();
-
     @Test
     public void testSolution() {
         Solution solution = new Solution();
-        System.out.println(solution.trailingZeroes(26));
+        System.out.println(solution.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
     }
 
     @Test
     public void otherTest() {
-        System.out.println(partition(1, 5469));
-        System.out.println(factorial(BigInteger.valueOf(5469)));
-    }
-
-    /**
-     * Use divide and conquer to calculate the factorial of n (n!)
-     * <b>Note:</b> We use <i>BigInteger</i> to avoid overflow.
-     *
-     * @param left first number to be multiplied (always be 1)
-     * @param right last number to be multiplied (e.g. if we need
-     *              to calculate n!, then <i>left</i> is 1 and
-     *              <i>right</i> is n)
-     * @return the result
-     */
-    public BigInteger partition(int left, int right) {
-        if (left >= right) {
-            return BigInteger.valueOf(left == right ? left : 1);
-        }
-        int mid = left + (right - left >> 1);
-        if (left + 1 == right) {
-            return BigInteger.valueOf((long) left * right);
-        }
-        BigInteger leftProduct = partition(left, mid);
-        BigInteger rightProduct = partition(mid + 1, right);
-        return leftProduct.multiply(rightProduct);
-    }
-
-    public BigInteger factorial(BigInteger n) {
-        return n.equals(BigInteger.valueOf(0)) ? BigInteger.valueOf(1) : n.multiply(factorial(n.subtract(BigInteger.valueOf(1))));
+        BigInteger n1 = new BigInteger("3487583947589437589237958723892346254776", 10);
+        BigInteger n2 = new BigInteger("8767867843568934765983476584376578388", 10);
+        BigInteger n = n1.multiply(n2);
+        System.out.println(n);
+        BigInteger e = BigInteger.valueOf(65537);
+        n = n.divide(e);
+        System.out.println(n);
+        n = n.add(BigInteger.valueOf(1));
+        System.out.println(n.multiply(e));
     }
 }

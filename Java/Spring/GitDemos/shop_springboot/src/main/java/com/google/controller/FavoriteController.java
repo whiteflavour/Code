@@ -1,9 +1,11 @@
 package com.google.controller;
 
 import com.google.config.LoginRequired;
+import com.google.entity.Consumer;
 import com.google.entity.Goods;
 import com.google.service.IConsumerService;
 import com.google.service.IFavoriteService;
+import com.google.service.IOnlineService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,6 +20,8 @@ public class FavoriteController {
     private IFavoriteService iFavoriteService;
     @Resource
     private IConsumerService iConsumerService;
+    @Resource
+    private IOnlineService iOnlineService;
     private final Goods goods;
 
     /**
@@ -33,8 +37,10 @@ public class FavoriteController {
 
     @GetMapping("/favorite")
     public String favoritePage(@RequestParam("name")String name, @RequestParam("price")double price, Model model) {
-        iConsumerService.login()
-        if ()
+        Consumer consumer = iOnlineService.findOnlineUser(name);
+        if (consumer == null) {
+            return "redirect:/login";
+        }
         goods.setName(name);
         goods.setPrice(price);
         iFavoriteService.addToFavorite(goods);
