@@ -1,3 +1,2 @@
 com/google/Solution.java
  com.google.Solution
- com.google.Solution$1
