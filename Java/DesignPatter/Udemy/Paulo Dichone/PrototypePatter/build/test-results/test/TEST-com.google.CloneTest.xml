@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.google.CloneTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-20T07:52:04" hostname="A-Fucking-MacBook-Pro.local" time="0.019">
+  <properties/>
+  <testcase name="testClone()" classname="com.google.CloneTest" time="0.019"/>
+  <system-out><![CDATA[Person 1: Person{name='bonni', age=21}
+Person 2: Person{name='Nina', age=21}
+Dolphin 1: Dolphin{name='jerry', age=78}
+Dolphin 2: Dolphin{name='jerry', age=78}
+209789015
+117299436
+420470737
+1887313006
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
