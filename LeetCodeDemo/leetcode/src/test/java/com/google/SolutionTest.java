@@ -9,7 +9,7 @@ public class SolutionTest {
     @Test
     public void testSolution() {
         Solution solution = new Solution();
-        System.out.println(solution.rangeBitwiseAnd(4,8));
+        System.out.println(solution.isIsomorphic("egg","add"));
     }
 
     @Test

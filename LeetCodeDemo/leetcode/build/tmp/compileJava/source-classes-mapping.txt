@@ -1,2 +1,0 @@
-com/google/Solution.java
- com.google.Solution
