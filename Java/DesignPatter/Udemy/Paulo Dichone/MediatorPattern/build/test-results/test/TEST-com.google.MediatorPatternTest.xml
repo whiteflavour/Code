@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.google.MediatorPatternTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-26T11:53:20" hostname="A-Fucking-MacBook-Pro.local" time="0.018">
+  <properties/>
+  <testcase name="testMediatorPattern()" classname="com.google.MediatorPatternTest" time="0.018"/>
+  <system-out><![CDATA[Boing 1: Sending message = Hello from Boing 1
+Boing 707: Receiving message = Hello from Boing 1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
