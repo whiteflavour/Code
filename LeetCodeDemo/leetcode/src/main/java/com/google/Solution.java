@@ -3,40 +3,47 @@ package com.google;
 import java.util.*;
 
 public class Solution {
-    private List<List<Integer>> edges;
-    private int[] indeg;
+    private Trie[] children;
+    private boolean isEnd;
 
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
-        edges = new ArrayList<>();
-        indeg = new int[numCourses];
-        Queue<Integer> queue = new LinkedList<>();
+    public Trie() {
+        children = new Trie[26];
+        isEnd = false;
+    }
 
-        for (int i = 0; i < numCourses; ++i) {
-            edges.add(new ArrayList<>());
-        }
-
-        for (int[] p : prerequisites) {
-            edges.get(p[1]).add(p[0]);
-            ++indeg[p[0]];
-        }
-
-        for (int i = 0; i < numCourses; ++i) {
-            if (indeg[i] == 0) {
-                queue.offer(i);
+    public void insert(String word) {
+        for (int i = 0; i < word.length(); ++i) {
+            char ch = word.charAt(i);
+            Trie child = children[ch - 'a'];
+            if (child == null) {
+                child = new Trie();
             }
+            this.children[ch - 'a'] = child;
         }
+        isEnd = true;
+    }
 
-        int visited = 0;
-        while (!queue.isEmpty()) {
-            ++visited;
-            int v = queue.poll();
-            for (int next : edges.get(v)) {
-                --indeg[next];
-                if (indeg[next] == 0) {
-                    queue.offer(next);
-                }
+    public boolean search(String word) {
+        for (int i = 0; i < word.length(); ++i) {
+            char ch = word.charAt(i);
+            Trie child = children[ch - 'a'];
+            if (child == null) {
+                return false;
             }
+            this.children[ch - 'a'] = child;
         }
-        return visited == numCourses;
+        return isEnd;
+    }
+
+    public boolean startsWith(String prefix) {
+        for (int i = 0; i < prefix.length(); ++i) {
+            char ch = prefix.charAt(i);
+            Trie child = children[ch - 'a'];
+            if (child == null) {
+                return false;
+            }
+            this.children[ch - 'a'] = child;
+        }
+        return true;
     }
 }
