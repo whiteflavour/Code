@@ -9,7 +9,7 @@ public class SolutionTest {
     @Test
     public void testSolution() {
         Solution solution = new Solution();
-        System.out.println(solution.isIsomorphic("egg","add"));
+        System.out.println(solution.minSubArrayLen(7, new int[]{2,3,1,2,4,3}));
     }
 
     @Test
