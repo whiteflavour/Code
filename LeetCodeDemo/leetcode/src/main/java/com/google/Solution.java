@@ -3,59 +3,67 @@ package com.google;
 import java.util.*;
 
 public class Solution {
-    private Trie root;
+    private Set<String> ans;
+    private int[][] dirs;
 
-    public WordDictionary() {
-        root = new Trie();
+    public List<String> findWords(char[][] board, String[] words) {
+        ans = new HashSet<>();
+        dirs = new int[][]{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+        Trie root = new Trie();
+        for (String word : words) {
+            root.insert(word);
+        }
+        for (int i = 0; i < board.length; ++i) {
+            for (int j = 0; j < board[0].length; ++j) {
+                dfs(board, root, i, j, ans);
+            }
+        }
+        return new ArrayList<>(ans);
     }
 
-    public void addWord(String word) {
-        root.insert(word);
+    public void dfs(char[][] board, Trie node, int row, int col, Set<String> ans) {
+        if (row < 0 || row >= board.length || col < 0 || col >= board[0].length) {
+            return;
+        }
+        char ch = board[row][col];
+        if (!node.children.containsKey(ch)) {
+            return;
+        }
+        Trie next = node.children.get(ch);
+        if (!"".equals(next.word)) {
+            ans.add(next.word);
+        }
+        if (!next.children.isEmpty()) {
+            board[row][col] = '#';
+            for (int[] dir : dirs) {
+                int i = row + dir[0], j = col + dir[1];
+                dfs(board, next, i, j, ans);
+            }
+            board[row][col] = ch;
+        } else {
+            node.children.remove(ch);
+        }
     }
 
-    public boolean search(String word) {
-        return dfs(word, 0, root);
-    }
-
-    private class Trie {
-        private Trie[] children;
-        private boolean isEnd;
+    class Trie {
+        private String word;
+        private Map<Character, Trie> children;
 
         public Trie() {
-            children = new Trie[26];
-            isEnd = false;
+            word = "";
+            children = new HashMap<>();
         }
 
         public void insert(String word) {
             Trie node = this;
-            for (char ch : word.toCharArray()) {
-                int index = ch - 'a';
-                if (node.children[index] == null) {
-                    node.children[index] = new Trie();
+            for (int i = 0; i < word.length(); ++i) {
+                char ch = word.charAt(i);
+                if (!node.children.containsKey(ch)) {
+                    node.children.put(ch, new Trie());
                 }
-                node = node.children[index];
+                node = node.children.get(ch);
             }
-            node.isEnd = true;
+            node.word = word;
         }
-    }
-
-    public boolean dfs(String word, int index, Trie node) {
-        if (index == word.length()) {
-            return node.isEnd;
-        }
-        char ch = word.charAt(index);
-        if (Character.isLetter(ch)) {
-            int childIndex = ch - 'a';
-            Trie child = node.children[childIndex];
-            return child != null && dfs(word, index + 1, child);
-        } else {
-            for (int i = 0; i < 26; ++i) {
-                Trie child = node.children[i];
-                if (child != null && dfs(word, index + 1, child)) {
-                    return true;
-                }
-            }
-        }
-        return false;
     }
 }
