@@ -1,5 +1,9 @@
 package com.google.client;
 
+import com.google.codec.KryoDecoder;
+import com.google.codec.KryoEncoder;
+import com.google.dto.RpcRequest;
+import com.google.dto.RpcResponse;
 import com.google.serialize.KryoSerializer;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelInitializer;
@@ -35,8 +39,14 @@ public class NettyClient {
                 .handler(new ChannelInitializer<SocketChannel>() {
                     @Override
                     protected void initChannel(SocketChannel socketChannel) throws Exception {
-                        socketChannel.pipeline().addLast()
+                        socketChannel.pipeline().addLast(new KryoDecoder(kryoSerializer, RpcResponse.class));
+                        socketChannel.pipeline().addLast(new KryoEncoder(kryoSerializer, RpcRequest.class));
+                        socketChannel.pipeline().addLast(new NettyClientHandler());
                     }
-                })
+                });
+    }
+
+    public RpcResponse sendMessage(RpcRequest rpcRequest) {
+
     }
 }
