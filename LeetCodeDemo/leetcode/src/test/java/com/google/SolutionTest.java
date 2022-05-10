@@ -1,27 +1,26 @@
 package com.google;
 
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
+import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.math.RoundingMode;
 import java.util.*;
 
 public class SolutionTest {
     @Test
     public void testSolution() {
-        Solution solution = new Solution();
-        System.out.println(solution.minSubArrayLen(7, new int[]{2,3,1,2,4,3}));
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        PeekingIterator peekingIterator = new PeekingIterator(list.iterator());
+        System.out.println(peekingIterator.next());
     }
 
     @Test
     public void otherTest() {
-        BigInteger n1 = new BigInteger("3487583947589437589237958723892346254776", 10);
-        BigInteger n2 = new BigInteger("8767867843568934765983476584376578388", 10);
-        BigInteger n = n1.multiply(n2);
-        System.out.println(n);
-        BigInteger e = BigInteger.valueOf(65537);
-        n = n.divide(e);
-        System.out.println(n);
-        n = n.add(BigInteger.valueOf(1));
-        System.out.println(n.multiply(e));
+        System.out.println();
     }
 }

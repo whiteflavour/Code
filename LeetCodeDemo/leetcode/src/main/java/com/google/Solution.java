@@ -1,31 +1,45 @@
 package com.google;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Solution {
-    private static final int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-    private List<List<Integer>> ans = new ArrayList<>();
+    private static final int EMPTY = Integer.MAX_VALUE;
+    private static final int GATE = 0;
+    private static final int WALL = -1;
+    private static final int[][] DIRECTIONS = {
+            {0,1},
+            {1, 0},
+            {-1, 0},
+            {0, -1}
+    };
 
-    public List<List<Integer>> combinationSum3(int k, int n) {
-        backtrack(new ArrayList<>(), k, n, 0);
-        return ans;
-    }
-
-    public void backtrack(List<Integer> combine, int k, int n, int start) {
-        if (k == 0 && n == 0) {
-            ans.add(new ArrayList<>(combine));
-            return;
-        }
-        if (k == 0 || n < 0) {
-            return;
-        }
-        for (int i = start; i < nums.length; ++i) {
-            if (!combine.isEmpty() && nums[i] < combine.get(combine.size() - 1)){
-                continue;
+    public void wallsAndGates(int[][] rooms) {
+        int m = rooms.length;
+        int n = rooms[0].length;
+        Queue<int[]> queue = new LinkedList<>();
+        for (int i = 0; i < m; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (rooms[i][j] == GATE) {
+                    queue.offer(new int[]{i, j});
+                }
             }
-            combine.add(nums[i]);
-            backtrack(combine, k - 1, n - nums[i], start + 1);
-            combine.remove(combine.size() - 1);
+        }
+
+        while (!queue.isEmpty()) {
+            int[] point = queue.poll();
+            int row = point[0];
+            int col = point[1];
+            for (int[] direction : DIRECTIONS) {
+                int r = row + direction[0];
+                int c = col + direction[1];
+                if (r < 0 || c < 0 || r >= m || c >= n || rooms[r][c] == WALL
+                        || rooms[r][c] != EMPTY) {
+                    continue;
+                }
+                rooms[r][c] = rooms[row][col] + 1;
+                queue.offer(new int[]{r, c});
+            }
         }
     }
 }
