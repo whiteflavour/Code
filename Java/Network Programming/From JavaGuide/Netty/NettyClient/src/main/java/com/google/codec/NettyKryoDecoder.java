@@ -11,7 +11,7 @@ import java.util.List;
 
 @AllArgsConstructor
 @Slf4j
-public class KryoDecoder extends ByteToMessageDecoder {
+public class NettyKryoDecoder extends ByteToMessageDecoder {
     private final Serializer serializer;
     private final Class<?> genericClass;
 

@@ -7,7 +7,7 @@ import io.netty.handler.codec.MessageToByteEncoder;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public class KryoEncoder extends MessageToByteEncoder<Object> {
+public class NettyKryoEncoder extends MessageToByteEncoder<Object> {
     private final Serializer serializer;
     private final Class<?> genericClass;
 
