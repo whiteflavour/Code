@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Favorite</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h3>Your favorites:</h3>
+        <div id="favorites">
+            <ul>
+                <th:block th:each="favorite:${favorites}">
+                    <li>
+                        <p>
+                            名称：
+                            <span th:text="${favorite.getName()}"></span>
+                        </p>
+                        <p>
+                            价格：
+                            <span th:text="${favorite.getPrice()}"></span>
+                        </p>
+                        <p>
+                            <a th:href="@{/deleteFavorite(name=${favorite.getName()}, price=${favorite.getPrice()})}">Delete from favorites</a>
+                        </p>
+                    </li>
+                </th:block>
+            </ul>
+        </div>
+    </body>
+</html>

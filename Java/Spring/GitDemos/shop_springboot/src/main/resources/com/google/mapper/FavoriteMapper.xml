@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.google.mapper.FavoriteMapper">
+    <insert id="insert" parameterType="Goods">
+        insert into favorite(name, price) values(#{name}, #{price})
+    </insert>
+
+    <select id="selectAll" resultType="Goods">
+        select name, price from favorite
+    </select>
+
+    <delete id="delete" parameterType="Goods">
+        delete from favorite where name=#{name} and price=#{price}
+    </delete>
+
+    <delete id="deleteAll">
+        truncate table favorite;
+    </delete>
+</mapper>

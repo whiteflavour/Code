@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.google.mapper.ConsumerMapper">
+    <select id="find" parameterType="Consumer" resultType="Consumer">
+        select * from consumer where username = #{username} and password = #{password}
+    </select>
+
+    <delete id="delete" parameterType="Consumer">
+        delete from consumer where id=#{id} and username=#{username}
+    </delete>
+</mapper>
